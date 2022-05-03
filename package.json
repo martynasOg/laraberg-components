@@ -1,10 +1,14 @@
 {
   "name": "laraberg-components",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "gutenberg componenets for laraberg",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,23 @@
   "bugs": {
     "url": "https://github.com/martynas22/laraberg-components/issues"
   },
-  "homepage": "https://github.com/martynas22/laraberg-components#readme"
+  "homepage": "https://github.com/martynas22/laraberg-components#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "core-js": "^3.18.1",
+    "cross-env": "^5.2.1",
+    "laravel-mix": "^6.0.31",
+    "laravel-mix-postcss-config": "^1.4.0",
+    "laravel-mix-purgecss": "^5.0.0",
+    "postcss": "^8.3.8",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.20.1",
+    "sass-loader": "^8.0.0",
+    "terser-webpack-plugin": "^2.3.7",
+    "webpack": "^5.55.1"
+  },
+  "dependencies": {
+    "postcss-loader": "^6.1.1",
+    "react": "^17.0.2"
+  }
 }
