@@ -7,7 +7,7 @@ const ALLOWED_BLOCKS = ['parts/nested-checkmark']
 
 export default {
     title: 'Nested Checkmarks',
-    icon: 'universal-access-alt',
+    icon: 'editor-ul',
     category: 'article',
     edit: edit,
     save: save,

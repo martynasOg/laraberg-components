@@ -6,8 +6,8 @@ const { Button, Toolbar } = wp.components
 const ALLOWED_BLOCKS = ['parts/nested-numbers']
 
 export default {
-    title: 'Nested Numbers',
-    icon: 'universal-access-alt',
+    title: 'Nested Custom List',
+    icon: 'editor-ol',
     category: 'article',
     edit: edit,
     save: save,

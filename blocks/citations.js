@@ -5,8 +5,8 @@ const { Button, Toolbar } = wp.components
 
 
 export default {
-    title: 'Citations',
-    icon: 'universal-access-alt',
+    title: 'Summary',
+    icon: 'editor-quote',
     category: 'article',
     edit: edit,
     save: save,

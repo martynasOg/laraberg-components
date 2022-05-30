@@ -8,7 +8,7 @@ const { Button, Toolbar } = wp.components
 
 export default {
     title: 'Image',
-    icon: 'universal-access-alt',
+    icon: 'format-image', 
     category: 'article',
     edit: class extends Component {
         constructor() {
@@ -48,7 +48,7 @@ export default {
     },
     
     attributes: {
-        image: { type: 'string', default: '/gutenberg/article/img/1.svg' },
+        image: { type: 'string', default: '/gutenberg/article/img/720x435.png' },
         cta: {type:'string', default:'https://go.redireci.com/click'},
         preview: { type: 'boolean', default: false }
     }

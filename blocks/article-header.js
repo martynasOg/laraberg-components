@@ -2,18 +2,16 @@ const { RichText, BlockControls, MediaUpload } = wp.editor
 const { Button, Toolbar } = wp.components
 
 export default {
-    title: 'Article Head',
-    icon: 'universal-access-alt',
+    title: 'Article Heading',
+    icon: 'heading',
     category: 'article',
     edit: edit,
     save: save,
     attributes: {
         content: { type: 'string' },
-        image: { type: 'string', default: 'http://placehold.it/500' },
         preview: { type: 'boolean', default: false }
     }
 }
-
 function edit(props) {
     return (
         <div>
@@ -33,13 +31,7 @@ function edit(props) {
 
     )
 }
-
-
-
 function renderEdit(props) {
- 
-
-
     function updateContent(text) {
         props.setAttributes({ content: text})
     }

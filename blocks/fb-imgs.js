@@ -7,8 +7,8 @@ const { Button, Toolbar } = wp.components
 
 
 export default {
-    title: 'Facebook Images',
-    icon: 'universal-access-alt',
+    title: 'FB testimonials',
+    icon: 'facebook',
     category: 'article',
     edit: class extends Component {
         constructor() {
@@ -48,10 +48,10 @@ export default {
     },
     
     attributes: {
-        image1: { type: 'string', default: '/gutenberg/article/img/1.svg' },
-        image2: { type: 'string', default: '/gutenberg/article/img/1.svg' },
-        image3: { type: 'string', default: '/gutenberg/article/img/1.svg' },
-        image4: { type: 'string', default: '/gutenberg/article/img/1.svg' },
+        image1: { type: 'string', default: '/gutenberg/article/img/345x650.png' },
+        image2: { type: 'string', default: '/gutenberg/article/img/345x650.png' },
+        image3: { type: 'string', default: '/gutenberg/article/img/345x650.png' },
+        image4: { type: 'string', default: '/gutenberg/article/img/345x650.png' },
         cta: {type:'string', default:'https://go.redireci.com/click'},
         preview: { type: 'boolean', default: false }
     }

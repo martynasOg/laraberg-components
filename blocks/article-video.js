@@ -6,7 +6,7 @@ const { Button, Toolbar } = wp.components
 
 export default {
     title: 'Video',
-    icon: 'universal-access-alt',
+    icon: 'format-video',
     category: 'article',
     edit: edit,
     save: save,

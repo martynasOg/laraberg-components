@@ -6,7 +6,7 @@ const { Button, Toolbar } = wp.components
 
 export default {
     title: 'Main Cta Button',
-    icon: 'universal-access-alt',
+    icon: 'warning',
     category: 'article',
     edit: edit,
     save: save,

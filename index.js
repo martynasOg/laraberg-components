@@ -25,34 +25,29 @@ import FbImages from './blocks/fb-imgs'
 
 //Laraberg.registerBlock('article/my-block', MyBlock)
 
-Laraberg.registerCategory('Article', 'article')
-Laraberg.registerCategory('Parts', 'parts')
+Laraberg.registerCategory('Parts For Nested Blocks', 'parts')
+ Laraberg.registerCategory('Article', 'article')
+ 
+ Laraberg.registerBlock('article/article-img', ArticleImg)
+ Laraberg.registerBlock('article/article-video', ArticleVideo)
+ 
 
-Laraberg.registerBlock('article/article-img', ArticleImg)
-Laraberg.registerBlock('article/article-video', ArticleVideo)
-
-
-
-
-Laraberg.registerBlock('article/article-header', ArticleHeader)
-Laraberg.registerBlock('article/quotation', Quotation)
-
-Laraberg.registerBlock('parts/nested-checkmark', nestedCheckmarks)
-Laraberg.registerBlock('article/nested-checkmarks', parentForCheckmarks)
-Laraberg.registerBlock('parts/nested-numbers', nestedNumbers)
-Laraberg.registerBlock('article/nested-numbers', parentForNumbers)
-Laraberg.registerBlock('parts/nested-qa', nestedQa)
-Laraberg.registerBlock('article/nested-qa', parentQa)
-Laraberg.registerBlock('parts/nested-custom', nestedCustom)
-Laraberg.registerBlock('article/nested-custom', parentCustom)
-
-Laraberg.registerBlock('article/verified-customer', verifiedCustom)
-Laraberg.registerBlock('article/cta-button', ctaButton)
-Laraberg.registerBlock('article/attention-box', AttentionBox)
-Laraberg.registerBlock('article/fb-images', FbImages)
-
-
-
-
-
-
+ 
+ 
+ 
+ Laraberg.registerBlock('article/article-header', ArticleHeader)
+ Laraberg.registerBlock('article/quotation', Quotation)
+ 
+ Laraberg.registerBlock('parts/nested-checkmark', nestedCheckmarks)
+ Laraberg.registerBlock('article/nested-checkmarks', parentForCheckmarks)
+ Laraberg.registerBlock('parts/nested-numbers', nestedNumbers)
+ Laraberg.registerBlock('article/nested-numbers', parentForNumbers)
+ Laraberg.registerBlock('parts/nested-qa', nestedQa)
+ Laraberg.registerBlock('article/nested-qa', parentQa)
+ Laraberg.registerBlock('parts/nested-custom', nestedCustom)
+ Laraberg.registerBlock('article/nested-custom', parentCustom)
+ 
+ Laraberg.registerBlock('article/verified-customer', verifiedCustom)
+ Laraberg.registerBlock('article/cta-button', ctaButton)
+ Laraberg.registerBlock('article/attention-box', AttentionBox)
+ Laraberg.registerBlock('article/fb-images', FbImages)

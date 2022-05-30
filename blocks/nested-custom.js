@@ -7,7 +7,7 @@ const { Component } = wp.element;
 const { Button, Toolbar } = wp.components
 
 export default {
-    title: 'Custom facts',
+    title: 'Nested Features',
     icon: 'universal-access-alt',
     category: 'parts',
     edit: class extends Component {
