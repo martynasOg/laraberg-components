@@ -42,7 +42,7 @@ function renderSave(props) {
     return (
     <p> 
         <img src="/article_assets/img/checkmark.svg"  alt="" srcset="" className="checkmark"  />
-        <strong className="capitalize">{props.attributes.titleContent}</strong> - {props.attributes.bodyContent}
+        <strong className="capitalize">{props.attributes.titleContent}</strong> {props.attributes.bodyContent}
     </p>
     )
 }
