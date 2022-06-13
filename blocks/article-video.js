@@ -18,6 +18,7 @@ export default {
 
 function edit(props) {
     return (
+        
         <div>
            
             { renderEdit(props) }
@@ -29,7 +30,9 @@ function edit(props) {
 function renderSave(props) {
     return (
         <picture>
-            <div style="position: relative; padding-top: 56.25%; margin-bottom: 18px;"><iframe src={props.attributes.url} style="border: none; position: absolute; top: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" className="lazyload" allowfullscreen="true"></iframe></div>
+
+<div className="content" dangerouslySetInnerHTML={{__html: props.attributes.url}}></div>
+          
         </picture>
 
     )
@@ -44,7 +47,7 @@ function renderEdit(props) {
 
     return (
         <div>
-            <label>Video url: </label>
+            <label>Video Html: </label>
             <URLInput
                 value={props.attributes.url} onChange={selectUrl}
             />
