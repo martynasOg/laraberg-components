@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: laraberg-components
+  annotations:
+    github.com/project-slug: martynasOg/laraberg-components
+spec:
+  type: other
+  lifecycle: unknown
+  owner: test
