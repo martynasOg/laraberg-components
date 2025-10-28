@@ -2,9 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: laraberg-components
+  links:
+    - url: https://forge.laravel.com/simas-jasiunas/supportvision/2397873
+      title: Forge link
+      icon: dashboard
   annotations:
     github.com/project-slug: martynasOg/laraberg-components
     backstage.io/techdocs-ref: dir:docs
+    
 spec:
   type: other
   lifecycle: unknown
