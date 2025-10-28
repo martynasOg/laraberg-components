@@ -4,6 +4,7 @@ metadata:
   name: laraberg-components
   annotations:
     github.com/project-slug: martynasOg/laraberg-components
+    backstage.io/techdocs-ref: dir:docs
 spec:
   type: other
   lifecycle: unknown
